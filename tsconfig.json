@@ -1,31 +1,26 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
-    "lib": ["es2016", "esnext.asynciterable", "dom"],
+    "target": "es2022",
     "downlevelIteration": true,
     "esModuleInterop": true,
-
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-
     "outDir": "dist",
-    "declarationDir": "dist/types",
     "sourceMap": true,
     "declaration": true,
     "stripInternal": true,
-
     "skipLibCheck": true
   },
   "include": [
     "**/*.ts"
-//    "test/**/*"
+    //    "test/**/*"
   ],
   "typedocOptions": {
     "mode": "file",
     "out": "docs",
-//    "exclude": "test",
+    //    "exclude": "test",
     "theme": "default",
     "gitRevision": "master",
     "ignoreCompilerErrors": true,
@@ -35,8 +30,8 @@
     "moduleResolution": "node",
     "preserveConstEnums": true,
     "stripInternal": true,
-//    "suppressExcessPropertyErrors": true,
-//    "suppressImplicitAnyIndexErrors": true,
+    //    "suppressExcessPropertyErrors": true,
+    //    "suppressImplicitAnyIndexErrors": true,
     "module": "commonjs"
   }
 }

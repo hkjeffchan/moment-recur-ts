@@ -585,7 +585,7 @@ export class Recur implements Iterable<moment.Moment> {
     let currentDate = startFrom.clone()
 
     // yield the starting date if it's a match
-    if (this.matchAllRules(currentDate)) {
+    if (this.matchAllRules(currentDate) && !this.isException(currentDate)) {
       yield currentDate.clone()
     }
 
